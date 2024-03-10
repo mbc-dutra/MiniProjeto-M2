@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação Personagem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div id="titulo">
+        <h1>Crie seu personagem!</h1>
+        </div>
+        <form id="cadastroForm">
+        <div class="linhas">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="genero" placeholder="Gênero" required>
+            <input type="text" id="raca" placeholder="Raça" required>
+            <input type="text" id="respiracao" placeholder="Respiração" required>
+            <input type="text" id="classe" placeholder="Classe" required>
+            <button type="submit">Adicionar</button>
+        </div>
+        </form>
+        <ul id="listaCadastro"></ul>
+    </div>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
