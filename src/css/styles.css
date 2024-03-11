@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#titulo{
+    color: #7FFF00;
+    -webkit-text-stroke: 1px #000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/06/26/demon-slayer-hashira-training-arc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.linhas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form input {
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #bd2130;
+}
